@@ -335,6 +335,9 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# QTI
+TARGET_BOARD_PLATFORM := trinket
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
